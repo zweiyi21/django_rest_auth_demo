@@ -1,0 +1,22 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__
+
+# Ignore version control files
+.git
+.svn
+
+# Ignore Docker specific files
+.dockerignore
+Dockerfile
+
+# Ignore local development files
+.env
+.vscode/
+.idea/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore sqlite file
+db.sqlite3
